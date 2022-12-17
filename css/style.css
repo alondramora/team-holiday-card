@@ -23,10 +23,14 @@ h1 {
     text-align: center;
     font-size: 5rem;
     padding-top: 50px;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+
 }
 
 .gift-one {
     position: absolute;
     right: 0px;
     bottom: 0px;
+    object-position: -40px 43px;
+    width: 500px;
 }
