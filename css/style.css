@@ -1,0 +1,12 @@
+.card {
+    color: red;
+    background-image: url("../images/living-room.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
