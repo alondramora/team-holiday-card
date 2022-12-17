@@ -1,6 +1,6 @@
 .card {
     color: red;
-    background-image: url("../images/living-room.jpg");
+    background-image: url("../images/living-room.svg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
@@ -9,4 +9,10 @@
 
 h1 {
     text-align: center;
+}
+
+.gift-one {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
