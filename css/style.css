@@ -30,7 +30,36 @@ h1 {
 
 .gift-one {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 250px;
+    bottom: 35px;
     width: 40px;
+    /* shake animation */
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    animation-name: shakeMe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shakeMe {
+    2%, 18% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    4%, 16% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    6%, 10%, 14% {
+        transform: translate3d(0, -5px, 0);
+    }
+
+    8%, 12% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    18.1% {
+        transform: translate3d(0px, 0, 0);
+    }
 }
