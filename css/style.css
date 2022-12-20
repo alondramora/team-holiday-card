@@ -67,6 +67,21 @@ h1 {
     }
 }
 
+/* modal */
+.modal-container {
+    display: none;
+}
+
+#github-container {
+    display: flex;
+    justify-content: center;
+}
+
+#github-icon {
+    padding-top: .5rem;
+    width: 30px;
+}
+
 /* snowflakes */
 .snowflake {
     --size: 1vw;
