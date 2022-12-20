@@ -3,7 +3,6 @@
 }
 
 body {
-    /* background-color: #d6ccc2; */
     background-color: rgb(67, 120, 66);
     overflow: hidden;
     display: flex;
@@ -29,15 +28,22 @@ body {
 h1 {
     text-align: center;
     font-size: 5rem;
-    padding-top: 20px;
+    padding-top: .1rem;
     text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
     color: black;
     margin-top: 2.5rem;
 }
 
+/* h1 media query */
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
 .gift-one {
     position: absolute;
-    right: 250px;
+    right: 270px;
     bottom: 35px;
     width: 40px;
     /* shake animation */
@@ -70,6 +76,14 @@ h1 {
         transform: translate3d(0px, 0, 0);
     }
 }
+
+/* gift media query */
+@media screen and (max-width: 850px) {
+    .gift-one {
+        display: none;
+    }
+}
+
 
 /* modal container */
 .modal-container {
@@ -104,7 +118,13 @@ h1 {
 }
 
 .modal p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#close-button {
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #github-container {
