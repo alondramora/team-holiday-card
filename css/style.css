@@ -10,7 +10,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .card {
@@ -131,7 +131,6 @@ h1 {
 #github-container {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 #github-icon {
