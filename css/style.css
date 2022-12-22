@@ -46,7 +46,7 @@ h1 {
 .gift-one {
     position: absolute;
     right: 375px;
-    bottom: 35px;
+    bottom: 34px;
     width: 40px;
     /* shake animation */
     transform: translate3d(0, 0, 0);
@@ -79,11 +79,19 @@ h1 {
     }
 }
 
-/* gift media query */
-@media screen and (max-width: 850px) {
+/* gift media queries */
+/*850px and under*/
+@media screen and (max-width: 870px) {
     .gift-one {
         display: none;
     }
+
+/* x px and above */
+@media screen and (min-width: 1700px) {
+    .gift-one {
+        display: none;
+    }
+}
 }
 
 
